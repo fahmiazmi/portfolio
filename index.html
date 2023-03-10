@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <!--link icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--Custom file css-->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!--bahagian header-->
+
+  <header>
+    <div class="user">
+      <img src="img/img1.jpg" alt="">
+      <h3 class="name">Ashraf Fahmi</h3>
+      <p class="post">web developer</p>
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#education">education</a></li>
+        <li><a href="#portfolio">portfolio</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--header tamaat-->
+
+  <div id="menu" class="fas fa-bars"></div>
+
+  <!--bahagian home mula-->
+  <section class="home" id="home">
+
+    <h3>Hi There!</h3>
+    <h1>I'm <span>ashraf</span></h1>
+    <!--p>huh nanti saya buat</p-->
+
+    <a href="#about"><button class="btn">about me<i class="fas fa-user"></i></button></a>
+
+
+  </section>
+  <!--bahagian home tamat-->
+
+
+  <!--bahagian about me mula-->
+
+  <section class="about" id="about">
+
+    <h1 class="heading"><span>About</span> Me </h1>
+
+    <div class="row">
+      <div class="info">
+        <h3><span>Name:</span>Mahammad Ashraf Fahmi Bin Azmi</h3>
+        <h3><span>Age:</span>20</h3>
+        <h3><span>Qualification:</span>Diploma Infromation Technology</h3>
+        <h3><span>Post:</span>Web developer</h3>
+        <h3><span>Language:</span>Bahasa Melayu / English / Arab (basic)</h3>
+        <!--button class="btn" id="printBtn">Download My Resume</button-->
+        <a href=""><button class="btn" id="printBtn">Download ?<i class="fas fa-download"><!--ni untuk icons--></i></button></a>
+      </div>
+
+      <div class="counter">
+
+        <div class="box">
+          <span>2+</span>
+          <h3>Years Of Study at Unisza</h3>
+        </div>
+
+        <div class="box">
+          <span>1+</span>
+          <h3>Project Completed</h3>
+        </div>
+        
+        <!--div class="box">
+          <span>2+</span>
+          <h3>Years Of Experience</h3>
+        </div-->
+        
+      </div>
+
+    </div>
+
+  </section>
+
+  <!--bahagian about me tamat-->
+
+  <!--bahagian education mula-->
+
+  <section class="education" id="education">
+
+    <h1 class="heading">My <span>Education</span> </h1>
+
+  <div class="box-container">
+    
+    <div class="box">
+      <i class="fas fa-graduation"></i>
+      <span>2021</span>
+      <h3>Web Developer</h3>
+      <p>bahagian Front-end memulakan pembelajaran dengan dengan menggunakan Language css dan juga html</p>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-graduation"></i>
+      <span> 2022 </span>
+      <h3>Web Developer</h3>
+      <p>bahagian back-end memulakan pembelajaran dengan menggunakan Language jsp untuk mengawal data tanpa memasukkan data ke dalam databse</p>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-graduation"></i>
+      <span> 2023 </span>
+      <h3>Web Developer</h3>
+      <p>bahagian back-end menyambung pembelajaran dengan menggunakan Language jsp untuk mengawal data dengan menghubungkan ke dalam database
+        dan memulakan projek pertama iaitu FYP yang bertajuk Sistem Bantuan terengganu sejahtera
+      </p>
+    </div>
+
+  </div>
+
+  </section>
+
+  <!--bahagian education tamat-->
+
+  <!--bahagian portfolio mula-->
+
+<section class="portfolio" id="portfolio">
+
+<h1 class="heading">My <span>Portfolio</span> </h1>
+<div class="box-container">
+
+
+  <div class="box">
+    <img src="img/img2.png" alt="">
+  </div>
+  
+  <div class="box">
+    <img src="img/img3.png" alt="">
+  </div>
+  
+  <div class="box">
+    <img src="img/img4.png" alt="">
+  </div>
+
+</div>
+
+
+</section>
+
+  <!--bahhagian portfolio tamat-->
+
+  <!--bahagian contact mula-->
+
+  <section class="contact" id="contact">
+
+    <h1 class="heading"><span>Contact</span> Me</h1>
+    <div class="row">
+      <div class="content">
+        <h3 class="title">Contact Info</h3>
+        <div class="info">
+
+        <button class="btn"><a href="">Phone</a> <i class="fa fa-phone"></i></button><br>
+        <button class="btn"><a href="">WhatsApp</a> <i class="fa fa-whatsapp"></i></button><br>
+        <button class="btn"><a href="mailto:ashraffahmi03@gmail.com">Email</a><i class="fa fa-envelope"></i></button><br>
+          <!--
+          <h3><i class="fas fa-envelope">ashraffahmi03@gmail.com</i></h3>
+          <h3><i class="fas fa-phone">011-31762566</i></h3>
+          <h3><i class="fas fa-map-marker-alt"> 21600, Marang, Terengganu</i></h3>
+          -->
+        </div>
+      </div>
+      <form action="mailto:ashraffahmi03@gmail.com" method="post" enctype="text/plain" id="usrform">
+        <input type="text" class="box" placeholder="Name" name="Name">
+        <input type="email" class="box" placeholder="email" name="Email">
+        <input type="text" class="box" placeholder="Project" name="Project">
+        <textarea id="" cols="30" rows="10" class="box message" placeholder="message" name="massage" form="usrform"></textarea>
+        <button type="submit" class="btn">send <i class="fas fa-paper-plane"></i></button>
+      </form>
+      
+    </div>
+  </section>
+
+  <!--bahgian contact tamat-->
+
+</body>
+
+</html>
+<script type="text/javascript">
+
+  document.getElementById('printBtn').addEventListener('click', () => { window.print() });
+  // Prints area to which class was assigned only
+
+</script>
+
+  <!--JQUEARY CSS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <!--CUSTOM FILE JS-->
+  <script src="js/script.js"></script>
