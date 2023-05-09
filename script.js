@@ -57,3 +57,20 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+//contact
+const phoneBtn = document.querySelector('.phone');
+const whatsappBtn = document.querySelector('.whatsapp');
+const emailBtn = document.querySelector('.email');
+
+phoneBtn.addEventListener('click', () => {
+  window.location.href = 'tel:+01131762566';
+});
+
+whatsappBtn.addEventListener('click', () => {
+  window.location.href = 'https://wa.me/01131762566';
+});
+
+emailBtn.addEventListener('click', () => {
+  window.location.href = 'mailto:ashraffahmi03@gmail.com';
+});
