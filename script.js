@@ -64,7 +64,7 @@ const whatsappBtn = document.querySelector('.whatsapp');
 const emailBtn = document.querySelector('.email');
 
 phoneBtn.addEventListener('click', () => {
-  window.location.href = 'tel:+01131762566';
+  window.location.href = 'tel:+0105072787';
 });
 
 whatsappBtn.addEventListener('click', () => {
