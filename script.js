@@ -68,7 +68,7 @@ phoneBtn.addEventListener('click', () => {
 });
 
 whatsappBtn.addEventListener('click', () => {
-  window.location.href = 'https://wa.me/0105072787';
+  window.location.href = 'https://wa.me/+60105072787';
 });
 
 emailBtn.addEventListener('click', () => {
